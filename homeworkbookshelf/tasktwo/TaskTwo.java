@@ -4,6 +4,11 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class TaskTwo {
+    //    Дан массив пар, состоящий из двух строк с именами и фамилиями,
+//    отсортировать массив в возрастающем лексикографическом порядке имени, и если две строки одинаковы, отсортируйте их по фамилии.
+//            (Можно заполнить массив своими данными)
+//    Input:  { {"abc", "last"}, {"pklz", "yelp"}, {"rpng", "note"}, {"ppza", "xyz"} }
+//    Output:  { {"abc", "last"}, {"pklz", "yelp"}, {"ppza", "xyz"}, {"rpng", "note"} }
 
     public static void main(String[] args) {
         String[][] inputArray = {{"abc", "last"}, {"pklz", "yelp"}, {"rpng", "note"}, {"ppza", "xyz"}};
